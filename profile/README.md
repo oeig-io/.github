@@ -4,6 +4,7 @@
 
 - [GitHub CLI (`gh`)](https://cli.github.com/) installed and authenticated to support maintaining repositories
 - [Incus](https://linuxcontainers.org/incus/docs/main/tutorial/first_steps/) - to run containers
+- Opencode
 
 ## Quick Start for New Users
 
@@ -41,4 +42,13 @@ Create the `AGENTS.md` symlink at the repository root:
 
 ```bash
 ./repo-utils/agents-symlink.sh
+```
+
+## Getting Started
+
+You can now ask Opencode "please create id-01", or you can launch the following:
+
+```
+cd container-management && ./launch.sh configs/idempiere.conf id-02 && cd ..
+cd idempiere-golive-deploy && ./deploy.sh id-01 && cd ..
 ```
