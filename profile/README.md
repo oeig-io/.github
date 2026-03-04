@@ -34,3 +34,11 @@ You can also get the status of all repositories using:
 ```bash
 ./repo-utils/git-status-all.sh
 ```
+
+## Setup
+
+Create the `AGENTS.md` symlink at the repository root:
+
+```bash
+./repo-utils/agents-symlink.sh
+```
