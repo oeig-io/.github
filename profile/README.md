@@ -52,3 +52,5 @@ You can now ask Opencode "please create id-01", or you can launch the following:
 cd container-management && ./launch.sh configs/idempiere.conf id-02 && cd ..
 cd idempiere-golive-deploy && ./deploy.sh id-01 && cd ..
 ```
+
+Some `install-*.sh` scripts in `repo-utils/` refresh workspace skills from upstream sources (e.g., after `@apify/mcpc` upgrades or as upstream NixOS docs change). See [`repo-utils/README.md`](repo-utils/README.md) for the full list.
